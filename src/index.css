@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Example for -webkit-text-size-adjust */
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Example for -webkit-text-underline-offset */
+a {
+  text-decoration: underline;
+  -webkit-text-underline-offset: 0.2em;
+  text-underline-offset: 0.2em;
+}
